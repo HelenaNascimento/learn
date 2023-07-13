@@ -1,0 +1,50 @@
+GridLayout:
+    cols:1
+    rows:4
+    Label:
+        text: "Descrição do Problema:"
+        background_color: (1, 1, 1, .5)
+        height: 40
+        width: 180
+        top: 100
+        size_hint: None, None
+        pos_hint: {'center_x': 0.5,}
+
+    TextInput:
+        id: EntText
+        multiline:True
+        write_tab: False
+        input_filter:'text'
+        height: 250
+        width: 300
+        top: 100
+        size_hint: None, None
+        pos_hint: {'center_x': 0.5,}
+    GridLayout:
+        cols:2
+        TextInput:
+            id: Dir_Img
+            size_hint:(.26,.05)
+            multiline:False
+            write_tab: False
+            input_filter:'int'
+            height: 30
+            width: 30
+
+        Button:
+            id: Sel_Img
+            size_hint:(.26,.05)
+            text: 'Inserir Imagem'
+            background_color: (1, 1, 1, .5)
+            height: 50
+            width: 30
+        Button:
+            id: Enter
+            size_hint:(.26,.05)
+            text: 'Enviar'
+            background_color: (0, 0, 1, .5)
+        Button:
+            id: Cancel
+            size_hint:(.26,.05)
+            text: 'Cancelar'
+            background_color: (1, 0, 0, .5)
