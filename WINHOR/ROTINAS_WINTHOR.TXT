@@ -1,0 +1,113 @@
+
+
+CLIENTE:
+
+    302 - Cadastrar Cliente 
+
+        https://www.youtube.com/watch?v=DfIsNoqCxUc&t=202s
+
+    
+
+
+PRODUTOS:
+	
+	203 - Cadastrar Produto
+	
+		https://www.youtube.com/watch?v=4lPEtDlW-zw
+	
+	2014 - Cadastro de Embalagem
+	
+		https://www.youtube.com/watch?v=GGWbnrjUOJ8
+	
+	253 - Vinculo Código Fabrica X Código Winthor + Fator de Conversão
+		
+		https://www.youtube.com/watch?v=M_1Ncd77iIo
+		
+	1103 - Custo do Produto
+		
+		https://www.youtube.com/watch?v=l8eQvti2kFM
+		
+	2017 - Precificação Por Embalagem
+	
+		https://www.youtube.com/watch?v=EuHaqB_J6XQ
+		
+	201 - Precificação Por Produto
+
+        https://www.youtube.com/watch?v=0vsJXkJMUhM
+
+ESTOQUE:
+
+    316 - Transferência de Estoque entre Estabelecimentos:
+    https://www.youtube.com/watch?v=VKc8-ua4Bxc
+
+
+    fluxo de Vendas e Expedição | Processo de Expedição (Exp Pedido):
+    https://www.youtube.com/watch?v=pxbMudqxlPU
+
+
+
+COMPRAS:
+
+    Apresentação:
+
+        https://www.youtube.com/watch?v=e3Pryx0gFJo&list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om
+        
+    220 - Digitar Pedido de Compras 
+
+        Introdução:
+        https://www.youtube.com/watch?v=Z25hgEbgIEs&list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om&index=2
+        
+        Conteúdo:
+        https://www.youtube.com/watch?v=Iy-g9KTQ3B0
+
+            Cotação:
+            https://www.youtube.com/watch?v=hl8_HHji0qk
+
+    1301 - Receber Mercadoria 
+        Introdução:
+        https://www.youtube.com/watch?v=j4ZSvoGotls&list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om&index=3
+
+    201 - Precificar Produto 
+        Introdução:
+        https://www.youtube.com/watch?v=0vsJXkJMUhM&list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om&index=4
+
+        Conteúdo:
+        https://www.youtube.com/watch?v=0vsJXkJMUhM
+
+    1106 - Montar Bônus
+        Introdução:
+        https://www.youtube.com/watch?v=JAOrixml7IA&list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om&index=5
+
+        Obs: Conferência dos itens na nota de entrada (Conferência Cega)
+
+
+    1302 - Devolução a Fornecedor
+        Introdução:
+        https://www.youtube.com/watch?v=TqKBB4_741Y&list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om&index=6
+
+VENDAS:
+
+    4116 - Rotina de Vendas 
+
+        https://www.youtube.com/watch?v=NBJXuoHJ6oc
+        
+    316 - Digitar Pedido de Vendas 
+
+        https://www.youtube.com/watch?v=L-tGVYfyb5A
+
+        Origem do Preço:
+        https://www.youtube.com/watch?v=Mntzm8ygoZo
+
+        Motivo de Bloqueio / Liberar Pedido:
+        https://www.youtube.com/watch?v=Dej9dbbDRMQ
+
+            398 - Cadastrar Motivo do Bloqueio de Pedido 
+
+    336 - Alterar Pedido de Vendas
+        Ratear Itens com Estoque disponível:
+        https://www.youtube.com/watch?v=mJSVJfmISoA
+
+
+FISCAL:
+
+    1452 - Emissão de Documentos Fiscais Eletrônicos
