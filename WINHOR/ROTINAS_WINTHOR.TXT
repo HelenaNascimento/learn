@@ -1,13 +1,10 @@
-
-
 CLIENTE:
 
     302 - Cadastrar Cliente 
 
         https://www.youtube.com/watch?v=DfIsNoqCxUc&t=202s
 
-    
-
+        15-18 /
 
 PRODUTOS:
 	
@@ -15,11 +12,13 @@ PRODUTOS:
 	
 		https://www.youtube.com/watch?v=4lPEtDlW-zw
 	
+        15-18 / 
+
 	2014 - Cadastro de Embalagem
 	
 		https://www.youtube.com/watch?v=GGWbnrjUOJ8
 	
-	253 - Vinculo Código Fabrica X Código Winthor + Fator de Conversão
+	253 - Víncular Código Fabrica X Código Winthor + Fator de Conversão
 		
 		https://www.youtube.com/watch?v=M_1Ncd77iIo
 		
@@ -33,18 +32,108 @@ PRODUTOS:
 		
 	201 - Precificação Por Produto
 
+        https://www.youtube.com/watch?v=0qUIRQkAFZM
+
         https://www.youtube.com/watch?v=0vsJXkJMUhM
 
+        Precificar Produto 34 
+        Precificação - 35
+
+        Precificar Produto 34 Rotina - 201
+            O que é?
+            Rotina onde se precifica mercadoria para venda.
+
+            Quando utilizar?
+            Na primeira campra de um produto ou sempre que for necessário alterar o preço de venda. 
+            A rotina oferece todas as informações necessárias para formação de preço, inclusive com um 
+            preço sugerido de acordo com a margem de lucro desejada.
+
+        Precificação - 35 Rotina - 2301
+            O que é?
+            Rotina onde se importa e atualiza preços por meio da tabela de preços da ABCFarma ou tabela de 
+            preços de Fornecedor
+
+            Quando utilizar? 
+            Na primeira compra de um produto ou sempre que for necessário importar ou 
+            atualizar o preço de vendas
+
+    301 - Autorizar Preço de Vendas
+
+        Quando utilizar?
+        Sempre que for necessário fornecedor um desconto ao clientre para uma venda específica. É um desconto com supervisão de
+        senha. Casoo vendedor não precise de autorização através de senha, basta acessar a rotina 530 ena permissão 40
+        da rotina 316 deixar a opção desmarcada.
+
+    266 - Bloqueio / Desbloqueio de Produto
+        36
+
+    2336 - Alterar Pedido de Vendas
+
+        Quando utilizar?
+        Sempre que for necessário bloquear e desbloquear pedidos ou alterar informações como de pagamento, quantidade, inclusão de itens watch
+        observações.
+       
 ESTOQUE:
 
     316 - Transferência de Estoque entre Estabelecimentos:
-    https://www.youtube.com/watch?v=VKc8-ua4Bxc
+        https://www.youtube.com/watch?v=VKc8-ua4Bxc
 
+    Fluxo de Vendas e Expedição | Processo de Expedição (Exp Pedido):
+     https://www.youtube.com/watch?v=pxbMudqxlPU
 
-    fluxo de Vendas e Expedição | Processo de Expedição (Exp Pedido):
-    https://www.youtube.com/watch?v=pxbMudqxlPU
+        901 - Montar Carga:
+        O que é?
+        Rotina onde os pedidos são escolhidos e o carregamento é montado.
+        Quando utilizar?
+        A entrega dos pedidos de venda Telemarketing é de responsabilidade da empres. Então, sempre que houver entrega
+        a ser realizada, o carregamento deverá ser montado de acordo com a rota a ser seguida pelo motorista.
 
+        https://www.youtube.com/watch?v=JJhjav2S4xo&t=23s
 
+        (54)
+
+        931 - Emitir mapa de seperação por pedido
+        (55)
+        O que é? 
+        Rotina  de emssaõ do mapa de separaçção com o enderelamento do estoque da mercadoria vendida.
+        Quando utilizar?
+        Dentro do processo de expedição por pedido. Os pedidos de venda de origem telemarketing e balcão reserva devem
+        ser separados no estoque antes do faturamento. O mapa de separação por pedido deve ser emitido para auxiliar
+        na busca dos produtos dentro do estoque. Será fornecido o endereço dos produtos, pedido a pedido.
+
+        936 - Conferir separação por pedido
+        (58)
+        O que é?
+        Rotina para conferência do pedido de venda separado 
+        Quanto utilizar?
+        Após emissão do mapa de separação, o responsável pelo trabalho irá buscar os produtosno estoque. A rotina será 
+        utilizada para conferir essa separação, sendo possível registrar o tempo de separação e conferência. Assim que
+        finalizado o processo, a rotina para emissão de etiqueta, 946, será aberta automaticamente.
+
+    932 - Corte por Pedido de Vendas 
+        (57)
+        O que é?
+        Rotina onde se realize os corte de mercadorias não encontradas antes de faturar opedido de vendas.
+        Quando Utilizar? 
+        Após emitir o mapa de separação, o responsável irá buscar os produtos dentro do estoque. Caso não encontre ou 
+        o produto vendido esteja avariado, deverá ser cortado do pedido de venda antes que este seja faturado. O corte
+        será realizado no pedido informado.
+
+    967 - Consultar Carregamento
+        O que é?
+        Rotina de consulta de carregamento.
+        Quanto utilizar? Para consultar detalhes referentes aos carregamentos montados.
+
+    410 - Acerto d Cargas e Caixas
+        
+        https://www.youtube.com/watch?v=HI1SaBUQ5w4
+
+        O que é?
+        Rotina para conferência e acerto de vendas de origem balcão e carregamentos faturado
+        Quando ultilizar?
+        Após o faturamento, todos as vendas de origem balcao devem ser acertados. No caso de corregamento, sempre que o motorista
+        chegar de uma entrega realizada, deverá entregar valores recebidos e canhotos de boleto bancários assinados. Dessa formação
+        será o acerto do carregamento.
 
 COMPRAS:
 
@@ -63,9 +152,16 @@ COMPRAS:
             Cotação:
             https://www.youtube.com/watch?v=hl8_HHji0qk
 
+        19-23 /
+
     1301 - Receber Mercadoria 
         Introdução:
         https://www.youtube.com/watch?v=j4ZSvoGotls&list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om&index=3
+
+        Conteúdo:
+        https://www.youtube.com/watch?v=OuV84EuGTfk
+
+        26 - 27
 
     201 - Precificar Produto 
         Introdução:
@@ -74,17 +170,57 @@ COMPRAS:
         Conteúdo:
         https://www.youtube.com/watch?v=0vsJXkJMUhM
 
-    1106 - Montar Bônus
+        Precificar Produto 34 Rotina - 201
+            O que é?
+            Rotina onde se precifica mercadoria para venda.
+
+            Quando utilizar?
+            Na primeira campra de um produto ou sempre que for necessário alterar o preço de venda. 
+            A rotina oferece todas as informações necessárias para formação de preço, inclusive com um 
+            preço sugerido de acordo com a margem de lucro desejada.
+
+        Precificação - 35 Rotina - 2301
+            O que é?
+            Rotina onde se importa e atualiza preços por meio da tabela de preços da ABCFarma ou tabela de 
+            preços de Fornecedor
+
+            Quando utilizar? 
+            Na primeira compra de um produto ou sempre que for necessário importar ou 
+            atualizar o preço de vendas
+
+    1106 - Conferir Mercadoria
         Introdução:
         https://www.youtube.com/watch?v=JAOrixml7IA&list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om&index=5
 
         Obs: Conferência dos itens na nota de entrada (Conferência Cega)
 
+        30-31
+
+    1095 - Manifestação de Nota Fiscal 
+
+    1455 - Geração MDF-e
+        https://www.youtube.com/watch?v=UeDDosUvXjA
 
     1302 - Devolução a Fornecedor
         Introdução:
         https://www.youtube.com/watch?v=TqKBB4_741Y&list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om&index=6
 
+        32-33
+
+    Expedição por pedidos
+        (53)
+    
+        Rotina 555: Cadastrar a distribuição especializada e espercificá-la como separação por pedido;
+
+        Rotina 202: Cadastrar a distribuição especializada dentro do cadastro dos Fornecedor devido;
+
+        Rotina 517: Cadastrar a distribuição especializada dentro do cadastro dos vendedores devidos.
+
+COMERCIAL:
+    
+    2323 - Cadastro de Promoções - 
+    (38 - 41)
+    
 VENDAS:
 
     4116 - Rotina de Vendas 
@@ -103,11 +239,102 @@ VENDAS:
 
             398 - Cadastrar Motivo do Bloqueio de Pedido 
 
+            (42-43)
+
     336 - Alterar Pedido de Vendas
         Ratear Itens com Estoque disponível:
         https://www.youtube.com/watch?v=mJSVJfmISoA
 
+    1902 - Manifestação 
+        Quando existe reclamação do Cliente
+        https://www.youtube.com/watch?v=WbxdUDr3kPA
+
+    1904 - Gerenciar assunto de Manifestação
+
+        https://www.youtube.com/watch?v=qg4ojcYL11Q
+
+    1926 - Emitir Manifestação
+
+        https://www.youtube.com/watch?v=9Ga2_p-Siko
+
+    967 - Consultar Carregamento
+        (58)
+        O que é?
+        Rotina de consulta de carregamento.
+        Quanto utilizar? Para consultar detalhes referentes aos carregamentos montados.
+
+    1402 - Gerar faturamento
+        (59)
+        O que é?
+        Rotina de faturamento de pedidos de venda de origem telemarketing
+        Quando utilizar?
+        Após finalizado o processo de expedição de pedidos, para que todos os pedidos de vendas inclusos em 
+        carregamento sejam faturados.
+
+    1504 - Emitir Boleto Bancário
+        O que é?
+        Rotina para gerar e emitir boleto bancário laser
+        Quando utilizar? 
+        Sempre que for necesspario gerar e imprimir um boleto bancário laser, como após uma venda de mercadoria de revenda.
 
 FISCAL:
 
     1452 - Emissão de Documentos Fiscais Eletrônicos
+        (60)
+        O que é?
+        Rotina de comunicação entre o sistema e o servidor local e SEFAZ de nota fiscal eletrônico.
+        Quando utilizar?
+        A rotina é aberta semre que outra rotina de faturamento é utilizada. Através da rotina 1452 é realizada a emissaõ do documento auxiliar
+        de nota fiscal eletrônica (DANF-e) e o arquivo XML, após a sua aprovação.
+
+    1303 - Devolução de Cliente
+        O que é?
+        Rotina para pesquisa de notas fiscais de venda, onde é realizada a selação dos produtos que foram devolvidos por clientes, Possível informar
+        nota fiscal de devolução ou gerá-la.
+        Quando utilizar? 
+        Quando o cliente devolver uma mercadoria vendida, seja qual for o motivo, irei utilizar a rotina para voltar este item para estoque e 
+        realizar o acerto financeiro com este cliente.
+
+FINANCEIRO:
+
+    Contas a Receber:
+        Introdução:
+        Desdobrar e agrupar os Títulos a Receber
+        Baixar Títulos manualmente
+        Estornar título baixados
+        Prorrogar Títulos
+        Rotinas de Relatórios
+        Extrato de cliente
+        Gerar arquivos de remessa e baixar arquivos de retorono CNAB400
+
+        1228 - Agrupamento de Contas a Receber
+            (69)
+            Quando utilizar:
+            Sempre que houver negociação com cliente e for necessário desdobrar ou agrupar os títulos negociados. É possível alterar a forma de pagamento
+            e data de vencimento, acrescentar valores, criar valoes e fornecer descontos.
+
+    Contas a Pagar:
+        Pagar comissão de vendedores
+        Incluir Títulos a pagar, que não seja proveniente de compra de mercadoria de revenda.
+        Alterar, desdobrar e prorrogar os títulos a pagar
+        Pagar as contas da empresa através de cheques ou borderô. 
+            Cheques: deverá usar apenas cheques da própria empresa, previamente cadastrados.
+            Borderô: poderá ser utilizado para qualquer tipo de pagamento
+
+    Gerenciar Tesouraria:
+        Lançar despesas e receitas com retirada ou entrad imediata 
+        Transferência de numerários entre caixas e Bancos
+        Conciliação de extrato bancário e caixas internos
+        Lançamento, extrato, estorno e baixa de Vales
+
+        Tesouraria, Bancos, Moedas e Concialiação Bancária
+        https://www.youtube.com/watch?v=FihB0r1-v4c
+   
+    522 - Cadastrar tipo de cobrança
+        https://www.youtube.com/watch?v=HI1SaBUQ5w4
+
+MANUTENÇÃO DO SISTEMA
+
+    CADASTRO BÁSICO
+
+     302 - 
