@@ -14,6 +14,9 @@ Window.size = (300,380)
 class HelpTI(App):
     def build(self):
         return GUI
+    
+    def closer(self):
+        return exit
 
 
 
