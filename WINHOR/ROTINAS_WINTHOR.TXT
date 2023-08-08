@@ -4,15 +4,13 @@ CLIENTE:
 
         https://www.youtube.com/watch?v=DfIsNoqCxUc&t=202s
 
-        15-18 /
-
 PRODUTOS:
 	
 	203 - Cadastrar Produto
 	
 		https://www.youtube.com/watch?v=4lPEtDlW-zw
 	
-        15-18 / 
+        15-18 
 
 	2014 - Cadastro de Embalagem
 	
@@ -163,6 +161,9 @@ COMPRAS:
 
         26 - 27
 
+        Importação XML:
+        https://www.youtube.com/watch?v=QMXvfkedBcU
+
     201 - Precificar Produto 
         Introdução:
         https://www.youtube.com/watch?v=0vsJXkJMUhM&list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om&index=4
@@ -263,6 +264,16 @@ VENDAS:
         Rotina de consulta de carregamento.
         Quanto utilizar? Para consultar detalhes referentes aos carregamentos montados.
 
+
+
+    1504 - Emitir Boleto Bancário
+        O que é?
+        Rotina para gerar e emitir boleto bancário laser
+        Quando utilizar? 
+        Sempre que for necesspario gerar e imprimir um boleto bancário laser, como após uma venda de mercadoria de revenda.
+
+FATURAMENTO:
+
     1402 - Gerar faturamento
         (59)
         O que é?
@@ -271,11 +282,18 @@ VENDAS:
         Após finalizado o processo de expedição de pedidos, para que todos os pedidos de vendas inclusos em 
         carregamento sejam faturados.
 
-    1504 - Emitir Boleto Bancário
-        O que é?
-        Rotina para gerar e emitir boleto bancário laser
-        Quando utilizar? 
-        Sempre que for necesspario gerar e imprimir um boleto bancário laser, como após uma venda de mercadoria de revenda.
+
+
+    CT-e
+        1450 - CT-e Transportadora Tercerizada:
+            Parametrizações e Pré-requisitos para Gerar CT-e (Rotina 1450)
+            https://www.youtube.com/watch?v=2FGfIjTMJwk
+            
+            Rotina 1450
+            https://www.youtube.com/watch?v=x64gP0QAU7w
+
+            Gerar CT-e por cliente (Rotina 1442)
+            https://www.youtube.com/watch?v=rVHdLo7xUYI
 
 FISCAL:
 
