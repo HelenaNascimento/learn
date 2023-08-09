@@ -6,9 +6,6 @@ CLIENTE:
 
         https://www.youtube.com/watch?v=DfIsNoqCxUc&t=202s
 
-    
-
-
 PRODUTOS:
 	
 	203 - Cadastrar Produto
@@ -43,8 +40,6 @@ ESTOQUE:
 
     fluxo de Vendas e Expedição | Processo de Expedição (Exp Pedido):
     https://www.youtube.com/watch?v=pxbMudqxlPU
-
-
 
 COMPRAS:
 
@@ -107,7 +102,6 @@ VENDAS:
         Ratear Itens com Estoque disponível:
         https://www.youtube.com/watch?v=mJSVJfmISoA
 
-
-FISCAL:
+FISCAL:\
 
     1452 - Emissão de Documentos Fiscais Eletrônicos
