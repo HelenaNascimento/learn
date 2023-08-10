@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+</head>
+<body>
+    <header> 
+
+    </header>
+    <div> 
+        <table>
+            <h1>Treinamento Winthor</h1>
+                <tr>
+                    <td><button>MANUT SISTEMA</button></td>
+                    <td><button>CAD BASÍCOS</button></td>
+                </tr>    
+                <tr>
+                    <td><button>CLIENTES</button></td>
+                    <td><button>VENDAS</button></td> 
+                    <td><button>FATURAMENTO</button></td>    
+                </tr>
+                <tr>
+                    <td><button>PRODUTOS</button></td>
+                    <td><button>COMPRAS</button></td>
+                    <td><button>ESTOQUE</button></td>                    
+                </tr>
+                <tr>
+                    <td><button>COMERCIAL</button></td>  
+                    <td><button>FISCAL</button></td>
+                    <td><button>FINANCEIRO</button></td>
+                </tr>
+
+        </table>
+    </div>
+    <div>
+        <dl>
+            <div>
+                <dt><b>CADASTRO BÁSICO</b></dt>
+                        <dd><p><b>1 - Cadastros Básicos</b></p></dd>
+                        <dd><p>1.1 - Cadastro de funcioanmento e responsável técnico (farmacêutico) - <mark>Rotina 302</mark></p></dd>
+                        <dd><p>1.2 - Cadastro de alvarás para produto controlados - <mark>Rotina 203</mark></p>
+                            <p><b>Alvará mais utilizados</b></p>
+                            <ul>
+                                <li>Pscicotrópico</li>
+                                <li>Retinoico</li>
+                                <li>Funcionamento</li>
+                                <li>ANVISA</li>
+                                <li>CRF</li>
+                                <li>SUS</li>
+                            </ul>
+                            <p>Sendo quê:</p>
+                            <ul>
+                                <li><b>Alvará de Fucionamento, ANVISA e SUS:</b> Permite a venda de Medicamentos pelo estabelecimento (excerto os psicotrópicos e retinoicos)</li>
+                                <li><b>Alvará Psicotrópicos/Retinoicos:</b> Permissão para o estabelecimento vender esses tipos de medicamentos (são monitorados como rigor pela ANVISA e Polícia Federal, inclusice com envios de relatótios periódicos sobre a venda desses medicamentos).</li>
+                                <li><b>Alvarás validados pelo sistema:</b> O sistema permite que o cliente cadastre e personaliza todos os alvarás obrigatórios, de acordo com a particularidade de cada região</li>
+                            </ul>
+                        </dd>
+                        <dd><p>1.3 - Origem de preço na venda - <mark>Rotina 302:</mark></p></dd>
+                        <dd><p>Definir de onde os sistema  vai buscar  preço dos medicamentos, se da tabela de Fábrica (F) ou de Preço (T).</p></dd>
+                        <dd><p>1.4 - Tipo de de Medicamentos -<mark>Rotina 203:</mark></p></dd>
+                        <dd><p>- <b>Liberados:</b> Apresentam preços de vnda livre, também chamados de OTC. (Aspirina, Dipirona, Sonrisal, etc.).</p></dd>
+                        <dd><p>- <b>Monitorado:</b> Têm o preço tabelado pelo Governo.</p></dd>
+                        <dd><p>- <b>Monitorados de Alto Custo:</b> Também conhecidos como exepcionais (adquiridos pelo governo e disponibilizados pelo SUS). Aquisição é regulamentada e tem preços e legslação específica (tratamento de Alzheimer, Parkinson, etc.). Além de psicotrópicos e retinoicos.</p></dd>
+                        <dd><p>1.5 - Grupo de faturamento - <mark>Rotina 203</mark>:</p></dd>
+                        <dd><p>Possibilidade de trabalhar com plano de pagamento diferenciado por tipo de medicamento no mesmo pedido.</p></dd>
+                        <dd>
+                            <ul>
+                                <li><p><b>Ético:</b> Medicamento original (marca ou nome conhecido do remédio). Refere - se ao laboratório que estudou e desenvolveu a formulação.</p></li>
+                                <li><p><b>Similar:</b> Cópia do ético. Tipo de nedicamento mais barato de todos (geralmente 50% do preço dos éticos)</p></li>
+                                <li><p><b>Genérico:</b> Também uma cópia do genérico, porém, co teste de bioquivalência (teste realizado pela ANVISA ou Ministério da Saúde que garante o mesmo efeito do medicamento ético).</p></li>
+                            </ul>
+                        </dd>
+                        <dd>1.6 - Natureza do produto - <mark>Rotina 203</mark>:</dd>
+                        <dd><p>Deve ser preenchido, Pois vai influenciar no momento de aprovação da NF-e, por isso deve estar informado que se trata de um medicamento. Se este produto não estiver com o número de lote válido na nota fiscal no validador, o servidos de NF-e irá invalidar esta nota e não permtirá que vá para a SEFAZ</p></dd>
+                        <dd>1.7 - Tipo de tributação do produto - <mark>Rotina 203</mark>:</dd>
+                        <dd><p>Classificação segundo o tipo de tributação que será aplicada, geralmente são produtos com incidência de ST e tm IVA (Índice de Valor Agregado) diferenciado para cada classificação. Nosso sistema apenas grava essa informação para efeitos de relatóris e filtros de pesquisa em algumas rotinas. A tributação de neducanebtis pe ckassufucada como:</p></dd>
+                        <dd>
+                            <ul>
+                                <li><p>Lista Positiva </p></li>
+                                <li><p>Lista Negativa </p></li>
+                                <li><p>Lista Neutra </p></li>
+                            </ul>
+                        <dd>1.8 - Cadastro de Princípio ativo e referência de medicamento - <mark>Rotina 213</mark>:</dd>
+                        </dd>
+                        <dd>
+                            <dd><p><b>2.3 - Cadastrar Motivo do Bloqueio de Pedido - <mark>Rotina 398</mark>:</b></p></dd>
+                        </dd>
+
+                        <br>
+            </div>
+            <div>
+                <dt><p><b>CLIENTES</b></p></dt>
+                    <dd><p><b>Cadastrar Clientes - </b><mark>Rotina 302</mark>:</p></dd>
+                    <br>
+                    <dd>
+                        <iframe width="621" height="480" src="https://www.youtube.com/embed/DfIsNoqCxUc" title="SISTEMA WINTHOR  - ROTINA 302 COMO CADASTRAR CLIENTES" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </dd>
+                    <br>
+            </div>
+            <div>        
+                <dt><p><b>VENDAS</b></p></dt>
+                    <dd>
+                        <dd><p><b>1 - Rotina de Vendas</b> - <mark>Rotina 4116</mark>:</p></dd>
+                    </dd>
+                    <dd>
+                        <iframe width="621" height="480" src="https://www.youtube.com/embed/NBJXuoHJ6oc" title="ROTINA 4116 VENDAS HOME CENTER /PARTI 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </dd>
+                    <dd>
+                        <dd><p><b>2 - Digitar Pedido de Vendas</b> - <mark>Rotina 316</mark>: </p></dd>
+                    </dd>
+                    <dd>
+                        <p><b>O que é?</b> Rotina de digitação do pedido de venda do cliente.</p>
+                        <p><b>Quando utilizar?</b> Sempre que uma venda for realizada, é necessário digitar o pedido na rotina 2316. Esse pedido orientará a separação das mercadorias , montagem de carga (para entrega) e faturamento:</p>
+                        <p><b>Quem utiliza?</b> Vendedores ou Televendas.</p>
+                        <button>Passo a Passo</button>
+                    </dd>
+                    <br>
+                    <br>
+                    <dd>Vídeo demonstrativo: </dd>
+                    <br>
+                    <dd>
+                        <iframe width="628" height="480" src="https://www.youtube.com/embed/L-tGVYfyb5A" title="#HOW TO - Como Emitir pedido de venda pela Rotina 316" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </dd>
+                    <dd>
+                        <p><b>2.1 - Origem do Preço</b>:</p>
+                    </dd>
+                    <dd>
+                        <iframe width="628" height="480" src="https://www.youtube.com/embed/Mntzm8ygoZo" title="Dicas do Winthor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </dd>
+                    <dd>
+                        <dd><p><b>2.2 - Motivo de Bloqueio / Liberar Pedido</b>:</p></dd>
+                    </dd>
+                    <dd>
+                        <iframe width="628" height="480" src="https://www.youtube.com/embed/Dej9dbbDRMQ" title="How To - Gravar Motivo de Bloqueio ao Cadastrar/Liberar Pedido (Rotina 316 e 336)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </dd>
+                    <dd>
+                        <p><b>Alterar Pedido de Vendas</b> - <mark>Rotina 2336</mark></p>
+                    </dd>
+                    <dd><p><b>O que é?</b> Rotina de alteração de pedidos de vendas.</p></dd>
+                    <dd><p><b>Quando utilizar?</b> Sempre que for pagamento, quantidade, inclusão de itens e observações.</p></dd>
+                    <dd><p><b>Quem utilizar?</b> Vendedor ou supervisor de vendas.</p></dd>
+                    <dd><button>Passo a Passo</button></dd>
+                    <dd><p><b>Ratear itens com estoque disponível</b> - <mark>Rotina 336 </mark></p></dd>
+                    <dd>
+                        <iframe width="621" height="480" src="https://www.youtube.com/embed/mJSVJfmISoA" title="How To - Ratear Estoque Disponível (Rotina 336)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </dd>
+                    <dd><p><b>Fluxo de Vendas e Expedição | Processo de Expedição (Exp Pedido):</b></p></dd>
+                    <dd>
+                        <iframe width="567" height="480" src="https://www.youtube.com/embed/pxbMudqxlPU" title="TOTVS Distribuição e Varejo (Linha WinThor) | Fluxo de Vendas e Expedição | Processo de Expedição" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </dd>
+                    <dd>
+                        <p><b>INFORMAÇÕES ADCIONAIS</b></p>
+                        <ol>
+                            <li> Nesta mesm rotina é realizado um pedido de orçamento. O processo é o mesmo de digitação de um pedid de venda, mudando apenas no momento da conclusão que ao invés de se teclar <b>F2</b> para gravar se tecla <b>F12</b> oara gerar yn irçamento que posteriormente poderá ser transformado em pedido de venda.</li>
+                            <br>
+                            <li>Ao realizar um pedido de venda o mesmo pode ficar nos seguintes status:</li>
+                            <ul>
+                                <li><p><b>L</b> (Liberado): não teve nenhuma restrição. O pedido está pronto para ser faturado ou incluido  em um carregamento.</p></li>
+                                <li><p><b>M</b> (Montado): encontra-se montdo com um carregamento de entrefa e com o processo de faturamento já iniciado</p></li>
+                                <li><p><b>F</b> (Faturado): já faturado para o cliente.</p></li>
+                                <li><p><b>C</b> (Cancelado): cancelado.</p></li>
+                                <li><p><b>P</b> (Pendente): ocorre a digitação dopedido mesmo sem estoque do produto</p></li>
+                                <li><p><b>B</b> (Bloqueado): toda vez que ocorre a digitação do pedido no sistema que ultrapassa o limite de crédito do cliente ou quando o cleinte ou o RCA estiverem bloqueados.</p></li>
+                            </ul>
+                            <br>
+                            <li>Através da <mark>rotina 329</mark> é possível cancelar um pedido de venda.</li>
+                            <br>
+                            <li>Através da <mark>rotina 335</mark> é possível consultar os pedidos de venda.</li>
+                        </ol>
+                    </dd>
+            </div>
+            <div>
+                <dt><b>FATURAMENTO</b></dt>
+                    <dd></dd>
+            </div>
+            <div>
+                <dt><b>PRODUTOS</b></dt>
+                <dd>
+                    <p><b>Cadastrar Produto</b> -  <mark>Rotina 203</mark></p>
+                </dd>
+                <dd>
+                    <iframe width="621" height="480" src="https://www.youtube.com/embed/4lPEtDlW-zw" title="203 - Cadastrar Produto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </dd>
+                <dd>
+                    <p><b>Cadastro de Embalagem</b> -  <mark>Rotina 2014</mark></p>
+                </dd>
+                <dd>
+                    <iframe width="621" height="480" src="https://www.youtube.com/embed/GGWbnrjUOJ8" title="2014 - Cadastro de Embalagens" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </dd>
+                <dd>
+                    <p><b>Víncular Código Fabrica X Código Winthor + Fator de Conversão</b> -  <mark>Rotina 253</mark></p>
+                </dd>
+                <dd>
+                    <iframe width="621" height="480" src="https://www.youtube.com/embed/M_1Ncd77iIo" title="253 - Vincular Código de fábrica do produto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </dd>
+                <dd>
+                    <p><b>Custo do Produto</b> -  <mark>Rotina 1103</mark></p>
+                </dd>
+                <dd>
+                    <iframe width="621" height="480" src="https://www.youtube.com/embed/l8eQvti2kFM" title="1103 - Custo do produto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </dd>
+                <dd><p><b>Precificação por Produto</b></p></dd>
+                <dd><p><b>Precificar Produto</b> - <mark>Rotina 201 </mark>:</mark></p></dd>
+                <dd><p><b>O que é?</b> Rotina onde se precifica mercadoria para venda.</p></dd>
+                <dd><p><b>Quando utilizar?</b> Na primeira campra de um produto ou sempre que for necessário alterar o preço de venda. A rotina oferece todas as informações necessárias para formação de preço, inclusive com um preço sugerido de acordo com a margem de lucro desejada. </p></dd>
+                <dd><p><b>INFORMAÇÕES ADICIONAIS</b></p></dd>
+                <dd>
+                        <ul>
+                            <li><p>Através da <mark>rotina 251</mark> é possível alterar vários preços de venda simultaneamente tendo como referência, por exemplo, a margem ideal, o preço de tabela futuro e etc.</p></li>
+                            <li><p>As alterações aplicadas nessa rotina são irreversíveis, pois ao acrescentar ou reduzir um percentual ou valor para a alteração do preço de vendda de acordo com os filtros informados, este não poderá ser cancelado, uma ver que as alterações são aplicadas direto no registro. Sempre, ao utilizar essa rotina, informara maior quantidade possível de filtros.</p></li>
+                        </ul>
+                </dd>
+                <dd><p><b>Precificação</b> - <mark>Rotina 2301:</mark></p></dd>
+                <dd><p><b>O que é?</b> Rotina onde se importa e atualiza preços por meio da tabela de preços da ABCFarma ou tabela de preços de Fornecedor. </p></dd>
+                <dd><p><b>Quando utilizar?</b> Na primeira compra de um produto ou sempre que for necessário importar ou atualizar o preço de vendas.</p></dd>
+                <dd><p><b>Resumido:</b></p></dd>
+                <dd>
+                    <iframe width="605" height="480" src="https://www.youtube.com/embed/0vsJXkJMUhM" title="TOTVS Distribuição e Varejo (Linha WinThor) | Fluxo de Compras | Precificar Produto (Rotina 201)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </dd>
+                <dd><p><b>Completo:</b></p></dd>
+                <dd>
+                    <iframe width="605" height="480" src="https://www.youtube.com/embed/0qUIRQkAFZM" title="LIVE #5 PRECIFICAÇÃO  Como ganhar mais eficiência na sua precificação e aumentar a margem no WinThor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </dd>
+                <dd>
+                    <p><b>Precificação por Embalagem - <mark>Rotina 2017</mark></b></p>
+                </dd>
+                <dd>
+                    <iframe width="605" height="480" src="https://www.youtube.com/embed/EuHaqB_J6XQ" title="2017 - Precificação de Produto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </dd>
+                <dd>
+                    <p><b>Autoriza Preço  de Vendas</b> - <mark>Rotina 301</mark></p>
+                </dd>
+                <dd><p><b>Quando utilizar?</b> Sempre que for necessário fornecedor um desconto ao clientre para uma venda específica. É um desconto com supervisão de senha. Casoo vendedor não precise de autorização através de senha, basta acessar a rotina 530 ena permissão 40 da rotina 316 deixar a opção desmarcada.</p></dd>
+            </div>
+            <div>
+                <dt><b>COMPRAS</b></dt>
+                <dd><p><b>Apresentação</b></p></dd>
+                <dd>
+                    <iframe width="567" height="480" src="https://www.youtube.com/embed/e3Pryx0gFJo?list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om" title="TOTVS Distribuição e Varejo (Linha WinThor) | Fluxo de Compras | Abertura" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </dd>
+                <br>
+            </div>
+            <div>
+                <dt><b>ESTOQUE</b></dt>
+                    <dd><p><b>Bloqueio / Desbloqueio de Produto</b> - <mark>Rotina 266</mark></p></dd>
+                    <dd><p><b>O que é?</b> Rotina onde o estoque pode ser bloqueado ou desbloqueado parcial ou totalmente</p></dd>
+                    <dd><p><b>Quando utilizar?</b> Após a conferência da nota fiscal de enrada será necessário bloquear ou desbloquear um produto, a rotina poderá ser utilizada</p></dd>
+                    <dd><p><b>Quem utiliza?</b> Responsável do estoque ou qté mesmo o próprio comprador, assistente comercial</p></dd>
+                    <dd><button>Passo a Passo</button></dd>
+                    <dd><p><b>Transferência de Estoque entre Estabelecimentos</b>- <mark>Rotina 316</mark></p></dd>
+                    <dd>
+                        <iframe width="567" height="480" src="https://www.youtube.com/embed/VKc8-ua4Bxc" title="316 - Transferência" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </dd>
+                    <dd><p><b>Digitar Pedido de Compras</b> - <mark>Rotina 220</mark></p></dd>
+                    <dd><p><b>Introdução:</b></p></dd>
+                    <dd><p><b>O que é?</b> Rotina utilizada para registrar negociações de compra ou mercadorias bonificadas. Sempre qeu alimento a <mark>rotina 220</mark>, o sistema gera previsão de estoque e possivelmente, previsão de contas a pagar. O pedido de compra é utilizado para conferência com a nota fiscal de entrada. Nesta retona ainda é possível, editar, duplicar, excluir e imprimir um pedido de compra.</p></dd>
+                    <dd><p><b>Quando utilizar?</b> O pedido de comrpa deverá ser digitado, obrigatoriamente, sempre que uma compra for realizada. Não há possibilidade de realizar a entrada de uma nota fiscal sem existir um pedido para vínculo. É importante que seja inserido corretamente todas as informações tributária e comerciais dos produtos comprados</p></dd>
+                    <dd><p><b>Quem utiliza?</b> O comprador de mercadoria de vendas, auxiliar de compras, gerente comercial</p></dd>
+                    <dd><button>Passo a Passo</button></dd>
+                    <br>
+                    <dd><p>Vídeo:</p></dd>
+                    <dd>
+                        <iframe width="567" height="480" src="https://www.youtube.com/embed/Z25hgEbgIEs?list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om" title="TOTVS Distribuição e Varejo (Linha WinThor) | Fluxo de Compras | Digitar Pedido Compra (Rotina 220)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </dd>
+                    <dd><p><b>Conteúdo:</b></p></dd>
+                    <dd>
+                        <iframe width="567" height="480" src="https://www.youtube.com/embed/Iy-g9KTQ3B0" title="220 - DIGITAR PEDIDO DE COMPRA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </dd>
+                    <dd><p><b>Cotação:</b></p></dd>
+                    <dd>
+                        <iframe width="567" height="480" src="https://www.youtube.com/embed/hl8_HHji0qk" title="Gerar Pedido de Compra Normal: Cotação (Rotina 220) - WinThor 23" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </dd>
+                    <dd><p><b>Receber Mercadoria</b> - <mark>Rotina 1301</mark></p></dd>
+                    <dd><p>Introdução:</p></dd>
+                    <dd><p><b>O que é?</b> Rotina onde se realiza a entrada das mercadorias através da nota fiscal enviada pelo fornecedor. Nela será feito o vínculo entre o pedido de compra registrado de acordo com a negociação entre o comprador e o fornecedor e anota fiscal.</p></dd>
+                    <dd><p><b>Quando utilizar?</b> Obrigatoriamente, sempre que o fornecedor enviar as mercadorias compradas ou bonificadas. A rotina confirmará a entrada dos produtos no estoque e alimentará as rotinas do financeiro com as informações para alimentar os livros fiscais de entrada</p></dd>
+                    <dd><p><b>Quem utiliza?</b> O responsável por receber a mercadoria e lançar a nota fiscal de entrada no sistema.</p></dd>
+                    <dd><button>Passo a Passo</button></dd>
+                    <br>
+                    <dd>
+                        <iframe width="567" height="480" src="https://www.youtube.com/embed/j4ZSvoGotls?list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om" title="TOTVS Distribuição e Varejo (Linha WinThor) | Fluxo de Compras | Receber Mercadoria (Rotina 1301)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </dd>
+                    <dd><p><b>INFORMAÇÕES ADICIONAIS:</b></p></dd>
+                    <dd>
+                        <ul>
+                            <li><p>Ao gravar e entrada de uma fiscal como "pré entrada" será necessário acessar a <mark>rotina 1309</mark> para liberar a pré entrada</p></li>
+                            <li><p>Na importação de arquivo XML será necessário utilizar a <mark>rotia 1309</mark> para liberar a entrada e depois vincular ao pedido</p></li>
+                            <li><p>Através da <mark>rotina 1313</mark> é possível consultar o espelho da nota fiscal de entrada de mercadoria</p></li>
+                        </ul>
+                    </dd>
+                    <dd><p><b><i>IMPORTANTE</i></b></p></dd>
+                    <dd><p>Toda entrada de nota fiscal de compra de mercadoria gera:</p></dd>
+                    <dd>
+                        <ul>
+                            <li><p>Confirmação de estoque e contas a pagar previstos pela digitação do pedido de compra;</p></li>
+                            <li><p>Confirmação dos tributos;</p></li>
+                            <li><p>Informações para os livros fiscais de entrada;</p></li>
+                            <li><p>Atualização de custo do estoque</p></li>
+                        </ul>
+                    </dd>
+                    <br>
+                    <dd>Conteúdo:</dd>
+                    <br>
+                    <dd>
+                        <iframe width="567" height="480" src="https://www.youtube.com/embed/OuV84EuGTfk" title="Tipos de Entrada (Normal, Entrega Futura e com NF Própria) - WinThor 23" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </dd>
+                    <dd><p><b>Importação de XML:</b></p></dd>
+                    <dd>
+                        <iframe width="567" height="480" src="https://www.youtube.com/embed/QMXvfkedBcU" title="TOTVS |  Webinar - Importação de XML na rotina 1301 #TOTVS_Distribuição_Linha_Winthor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </dd>
+                    <dd><p><b>Conferir Mercadoria</b> - <mark>Rotina 1106</mark></p></dd>
+                    <dd><p><b>O que é?</b> Rotina de auxílio à conferência entre a nota fiscal de entrada e as mercadorias entregues pelo fornecedor. Disponibiliza um relatório com a descrição de todos os produtos a serem conferidos, de acordo com a nota fiscal selecionada.</p></dd>
+                    <dd><p><b>Quando utilizar?</b> A conferência cega não é obrigatória. Caso esse processo seja utilizado, será realizado sempre após a entrada da nota fiscal. É neste momento que os produtos avariados são encontrados e que as divergências de quantidade são localizadas. A conferência física evita possível prejuízos</p></dd>
+                    <dd><p><b>Quem utiliza?</b> Normalmente a pessoa que realiza a entrada da nota fiscal seleciona e emite o relatório para conferência. O processo de contagem será feita por alguém de estoque. Porém, normalmente esse funcionário terá acesso apenas a aba de digitação dos itens contados.</p></dd>
+                    <dd><button>Passo a Passo</button></dd>
+                    <br>
+                    <br>
+                    <dd>
+                        <iframe width="567" height="480" src="https://www.youtube.com/embed/JAOrixml7IA?list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om" title="TOTVS Distribuição e Varejo (Linha WinThor) | Fluxo de Compras | Montar Bônus (Rotina 1106)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </dd>
+                    <dd>
+                        <p>Obs: Coferência dos itens na nota de entrada (Conferência Cega)</p>
+                    </dd>
+                    <dd><p><b>Dovolução de Produto</b> - <mark>Rotina 1302:</mark></p></dd>
+                    <dd><p><b>O que e?</b> Rotina para perquisa de notas fiscais de entrada, onde é realizada a seleção dos produtos a srem devolvidos e se realiza a emissão de nota fiscal de devolução ao fornecedor.</p></dd>
+                    <dd><p><b>Quando utilizar?</b> É possível que o fornecedor tenha enviado uma quantidade menor do que aquela informada na nota fiscal. Para que nao haja diferença no estoque e no financeiro, é necessário fazer uma devolução da mercadoria em falta. Também utilizada quando o produto chega avariado ou é enviada quantidade maior do que foi solicitado no pedido de compra</p></dd>
+                    <dd><p><b>Quem utiliza?</b> Faturamento ou responsável pela entrada de nota fiscal</p></dd>
+                    <dd>
+                        <iframe width="567" height="480" src="https://www.youtube.com/embed/TqKBB4_741Y?list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om" title="TOTVS Distribuição e Varejo (Linha WinThor) | Fluxo de Compras | Devolução Fornecedor (Rotina 1302)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </dd>
+                    <dd><p><b>INFORMAÇÕES ADICIOAIS:</b></p></dd>
+                    <dd><p>Para que a quantidade da Nota Fiscal não esteja visível no moemtno da digitação do bônus é necessário acessar a <mark>rotina 530</mark> e nas permissões da <mark>rotina 1106</mark> desmacar a opção 15.</p>
+                    <p>Usar a <mark>rotina 1183</mark> para realizar desdobramento de lotes.</p></dd>
+            </div>
+            <div>
+                <dt><b>COMERCIAL</b></dt>
+                <dd></dd>
+            </div>
+            <div>
+                <dt><b>FISCAL</b></dt>
+                <dd></dd>
+            </div>
+            <div>
+                <dt><b>FINANCEIRO</b></dt>
+                <dd></dd>
+            </div>
+        </dl>
+    </div>
+</body>
+</html>

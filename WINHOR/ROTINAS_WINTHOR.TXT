@@ -48,19 +48,15 @@ PRODUTOS:
 
         Precificação - 35 Rotina - 2301
             O que é?
-            Rotina onde se importa e atualiza preços por meio da tabela de preços da ABCFarma ou tabela de 
-            preços de Fornecedor
+            Rotina onde se importa e atualiza preços por meio da tabela de preços da ABCFarma ou tabela de preços de Fornecedor
 
             Quando utilizar? 
-            Na primeira compra de um produto ou sempre que for necessário importar ou 
-            atualizar o preço de vendas
+            Na primeira compra de um produto ou sempre que for necessário importar ou atualizar o preço de vendas
 
     301 - Autorizar Preço de Vendas
 
         Quando utilizar?
-        Sempre que for necessário fornecedor um desconto ao clientre para uma venda específica. É um desconto com supervisão de
-        senha. Casoo vendedor não precise de autorização através de senha, basta acessar a rotina 530 ena permissão 40
-        da rotina 316 deixar a opção desmarcada.
+        Sempre que for necessário fornecedor um desconto ao clientre para uma venda específica. É um desconto com supervisão de senha. Casoo vendedor não precise de autorização através de senha, basta acessar a rotina 530 ena permissão 40 da rotina 316 deixar a opção desmarcada.
 
     266 - Bloqueio / Desbloqueio de Produto
         36
