@@ -12,7 +12,7 @@
     </header>
 
     <div id="Cabecalho"> 
-        <h1>Treinamento Winthor</h1>
+        <h1 id="txt1">Treinamento Winthor</h1>
 
             <a href="#" class="button">MANUT SISTEMA</a>
             <a href="#" class="button">CAD BASÍCOS</a>
@@ -24,37 +24,13 @@
             <a href="#" class="button">FISCAL</a>
             <a href="#" class="button">FINANCEIRO</a>
             <br>
-
-    <!--    <table>
-            <h1>Treinamento Winthor</h1>
-                <tr>
-                    <td id="t1"><button>MANUT SISTEMA</button></td>
-                    <td id="t2"><button>CAD BASÍCOS</button></td>
-                </tr>    
-                <tr>
-                    <td><button>CLIENTES</button></td>
-                    <td><button>VENDAS</button></td> 
-                    <td><button>FATURAMENTO</button></td>    
-                </tr>
-                <tr>
-                    <td><button>PRODUTOS</button></td>
-                    <td><button>COMPRAS</button></td>
-                    <td><button>ESTOQUE</button></td>                    
-                </tr>
-                <tr>
-                    <td><button>COMERCIAL</button></td>  
-                    <td><button>FISCAL</button></td>
-                    <td><button>FINANCEIRO</button></td>
-                </tr>
-
-        </table> -->
     </div>
     <div>
         <dl>
             <div>
-                <dt id="Cabecalho"><b>CADASTRO BÁSICO</b></dt>
+                <dt id="header"><b>CADASTRO BÁSICO</b></dt>
                         <dd><p><b>1 - Cadastros Básicos</b></p></dd>
-                        <dd><p>1.1 - Cadastro de funcioanmento e responsável técnico (farmacêutico) - <mark>Rotina 302</mark></p></dd>
+                        <dd><p>1.1 - Cadastro de funcionamento e responsável técnico (farmacêutico) - <mark>Rotina 302</mark></p></dd>
                         <dd><p>1.2 - Cadastro de alvarás para produto controlados - <mark>Rotina 203</mark></p>
                             <p><b>Alvará mais utilizados</b></p>
                             <ul>
@@ -102,16 +78,9 @@
                         <dd>
                             <dd><p><b>2.3 - Cadastrar Motivo do Bloqueio de Pedido - <mark>Rotina 398</mark>:</b></p></dd>
                         </dd>
-
-                        <br>
             </div>
             <div>
-                <a class="btn-fixed" href="top">
-                    <span class="material-icons">
-                        nort
-                    </span>
-                </a>
-                <dt id="Cabecalho"><p><b>CLIENTES</b></p></dt>
+                <dt id="header"><p><b>CLIENTES</b></p></dt>
                     <dd><p><b>Cadastrar Clientes - </b><mark>Rotina 302</mark>:</p></dd>
                     <br>
                     <dd>
@@ -120,7 +89,7 @@
                     <br>
             </div>
             <div>        
-                <dt id="Cabecalho"><p><b>VENDAS</b></p></dt>
+                <dt id="header"><p><b>VENDAS</b></p></dt>
                     <dd>
                         <dd><p><b>1 - Rotina de Vendas</b> - <mark>Rotina 4116</mark>:</p></dd>
                     </dd>
@@ -134,7 +103,7 @@
                         <p><b>O que é?</b> Rotina de digitação do pedido de venda do cliente.</p>
                         <p><b>Quando utilizar?</b> Sempre que uma venda for realizada, é necessário digitar o pedido na rotina 2316. Esse pedido orientará a separação das mercadorias , montagem de carga (para entrega) e faturamento:</p>
                         <p><b>Quem utiliza?</b> Vendedores ou Televendas.</p>
-                        <button>Passo a Passo</button>
+                        <button id="btn1">Passo a Passo</button>
                     </dd>
                     <br>
                     <br>
@@ -161,7 +130,7 @@
                     <dd><p><b>O que é?</b> Rotina de alteração de pedidos de vendas.</p></dd>
                     <dd><p><b>Quando utilizar?</b> Sempre que for pagamento, quantidade, inclusão de itens e observações.</p></dd>
                     <dd><p><b>Quem utilizar?</b> Vendedor ou supervisor de vendas.</p></dd>
-                    <dd><button>Passo a Passo</button></dd>
+                    <dd><button  id="btn1">Passo a Passo</button></dd>
                     <dd><p><b>Ratear itens com estoque disponível</b> - <mark>Rotina 336 </mark></p></dd>
                     <dd>
                         <iframe width="621" height="480" src="https://www.youtube.com/embed/mJSVJfmISoA" title="How To - Ratear Estoque Disponível (Rotina 336)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -192,12 +161,12 @@
                     </dd>
             </div>
             <div>
-                <dt id="Cabecalho"><b>FATURAMENTO</b></dt>
+                <dt id="header"><b>FATURAMENTO</b></dt>
                     <dd></dd>
                     <br>
             </div>
             <div>
-                <dt id="Cabecalho"><b>PRODUTOS</b></dt>
+                <dt id="header"><b>PRODUTOS</b></dt>
                 <dd>
                     <p><b>Cadastrar Produto</b> -  <mark>Rotina 203</mark></p>
                 </dd>
@@ -256,7 +225,7 @@
                 <dd><p><b>Quando utilizar?</b> Sempre que for necessário fornecedor um desconto ao clientre para uma venda específica. É um desconto com supervisão de senha. Casoo vendedor não precise de autorização através de senha, basta acessar a rotina 530 ena permissão 40 da rotina 316 deixar a opção desmarcada.</p></dd>
             </div>
             <div>
-                <dt id="Cabecalho"><b>COMPRAS</b></dt>
+                <dt id="header"><b>COMPRAS</b></dt>
                 <dd><p><b>Apresentação</b></p></dd>
                 <dd>
                     <iframe width="567" height="480" src="https://www.youtube.com/embed/e3Pryx0gFJo?list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om" title="TOTVS Distribuição e Varejo (Linha WinThor) | Fluxo de Compras | Abertura" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -264,12 +233,12 @@
                 <br>
             </div>
             <div>
-                <dt id="Cabecalho"><b>ESTOQUE</b></dt>
+                <dt id="header"><b>ESTOQUE</b></dt>
                     <dd><p><b>Bloqueio / Desbloqueio de Produto</b> - <mark>Rotina 266</mark></p></dd>
                     <dd><p><b>O que é?</b> Rotina onde o estoque pode ser bloqueado ou desbloqueado parcial ou totalmente</p></dd>
                     <dd><p><b>Quando utilizar?</b> Após a conferência da nota fiscal de enrada será necessário bloquear ou desbloquear um produto, a rotina poderá ser utilizada</p></dd>
                     <dd><p><b>Quem utiliza?</b> Responsável do estoque ou qté mesmo o próprio comprador, assistente comercial</p></dd>
-                    <dd><button>Passo a Passo</button></dd>
+                    <dd><button  id="btn1">Passo a Passo</button></dd>
                     <dd><p><b>Transferência de Estoque entre Estabelecimentos</b>- <mark>Rotina 316</mark></p></dd>
                     <dd>
                         <iframe width="567" height="480" src="https://www.youtube.com/embed/VKc8-ua4Bxc" title="316 - Transferência" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -279,7 +248,7 @@
                     <dd><p><b>O que é?</b> Rotina utilizada para registrar negociações de compra ou mercadorias bonificadas. Sempre qeu alimento a <mark>rotina 220</mark>, o sistema gera previsão de estoque e possivelmente, previsão de contas a pagar. O pedido de compra é utilizado para conferência com a nota fiscal de entrada. Nesta retona ainda é possível, editar, duplicar, excluir e imprimir um pedido de compra.</p></dd>
                     <dd><p><b>Quando utilizar?</b> O pedido de comrpa deverá ser digitado, obrigatoriamente, sempre que uma compra for realizada. Não há possibilidade de realizar a entrada de uma nota fiscal sem existir um pedido para vínculo. É importante que seja inserido corretamente todas as informações tributária e comerciais dos produtos comprados</p></dd>
                     <dd><p><b>Quem utiliza?</b> O comprador de mercadoria de vendas, auxiliar de compras, gerente comercial</p></dd>
-                    <dd><button>Passo a Passo</button></dd>
+                    <dd><button  id="btn1">Passo a Passo</button></dd>
                     <br>
                     <dd><p>Vídeo:</p></dd>
                     <dd>
@@ -298,7 +267,7 @@
                     <dd><p><b>O que é?</b> Rotina onde se realiza a entrada das mercadorias através da nota fiscal enviada pelo fornecedor. Nela será feito o vínculo entre o pedido de compra registrado de acordo com a negociação entre o comprador e o fornecedor e anota fiscal.</p></dd>
                     <dd><p><b>Quando utilizar?</b> Obrigatoriamente, sempre que o fornecedor enviar as mercadorias compradas ou bonificadas. A rotina confirmará a entrada dos produtos no estoque e alimentará as rotinas do financeiro com as informações para alimentar os livros fiscais de entrada</p></dd>
                     <dd><p><b>Quem utiliza?</b> O responsável por receber a mercadoria e lançar a nota fiscal de entrada no sistema.</p></dd>
-                    <dd><button>Passo a Passo</button></dd>
+                    <dd><button  id="btn1">Passo a Passo</button></dd>
                     <br>
                     <dd>
                         <iframe width="567" height="480" src="https://www.youtube.com/embed/j4ZSvoGotls?list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om" title="TOTVS Distribuição e Varejo (Linha WinThor) | Fluxo de Compras | Receber Mercadoria (Rotina 1301)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -335,7 +304,7 @@
                     <dd><p><b>O que é?</b> Rotina de auxílio à conferência entre a nota fiscal de entrada e as mercadorias entregues pelo fornecedor. Disponibiliza um relatório com a descrição de todos os produtos a serem conferidos, de acordo com a nota fiscal selecionada.</p></dd>
                     <dd><p><b>Quando utilizar?</b> A conferência cega não é obrigatória. Caso esse processo seja utilizado, será realizado sempre após a entrada da nota fiscal. É neste momento que os produtos avariados são encontrados e que as divergências de quantidade são localizadas. A conferência física evita possível prejuízos</p></dd>
                     <dd><p><b>Quem utiliza?</b> Normalmente a pessoa que realiza a entrada da nota fiscal seleciona e emite o relatório para conferência. O processo de contagem será feita por alguém de estoque. Porém, normalmente esse funcionário terá acesso apenas a aba de digitação dos itens contados.</p></dd>
-                    <dd><button>Passo a Passo</button></dd>
+                    <dd><button  id="btn1">Passo a Passo</button></dd>
                     <br>
                     <br>
                     <dd>
@@ -356,16 +325,77 @@
                     <p>Usar a <mark>rotina 1183</mark> para realizar desdobramento de lotes.</p></dd>
             </div>
             <div>
-                <dt id="Cabecalho"><b>COMERCIAL</b></dt>
+                <dt id="header"><b>COMERCIAL</b></dt>
                 <dd></dd>
+                <br>
             </div>
             <div>
-                <dt id="Cabecalho"><b>FISCAL</b></dt>
+                <dt id="header"><b>FISCAL</b></dt>
                 <dd></dd>
+                <br>
             </div>
             <div>
-                <dt id="Cabecalho"><b>FINANCEIRO</b></dt>
-                <dd></dd>
+                <dt id="header"><b>FINANCEIRO</b></dt>
+                    <div><dd><p><b>Contas a Receber:</b></p></dd>
+                        <div><dd>Desdobrar e agrupar os Títulos a Receber</dd>
+                            <dd>
+                                <lo>
+                                    <li>Desdobrar e agrupar os Títulos a Receber</li>
+                                    <li>Baixar Títulos manualmente</li>
+                                    <li>Estornar título baixados</li>
+                                    <li>Prorrogar Títulos</li>
+                                    <li>Extrato de Cliente</li>
+                                    <li>Gerar Arquivo de Remessa e baixar arquivos de retorno CNAB400</li>
+                                </lo>
+                            </dd>
+                            <div>
+                                <dd><p><b>Agrupamento de Conta a Receber</b></p></dd>
+                                <div>
+                                    <dd><p><b>O que é?</b> Rotina para alterar títulos</p></dd>
+                                </div>
+                                <div>
+                                    <dd>
+                                        <p>
+                                            <b>Quando utilizar?</b> 
+                                            Sempre houver negociação com cliente e for necessário desdobrar ou agrupar os títulos negociados. É possível alterar a forma a forma de pagamento e data de venciemnto, acrescentar valores, criar vales e forecer desconto
+                                        </p>
+                                    </dd>
+                                </div>
+                                <div>
+                                    <dd>    
+                                        <p>
+                                            <b>Quem utiliza?</b> 
+                                                Contas a receber
+                                        </p>
+                                    </dd>
+                                    <button id="btn1">Passo a Passo</button>
+                                </div>
+
+                            </div>
+                        </div>    
+                    </div>
+                    <div>
+                        <dd>
+                            <p>
+                                <b>
+                                    Contas a Pagar:
+                                </b>
+                            </p>
+                        </dd>
+                        <div>
+                            <lo>
+                                <li>Pagar comissão de vendedores</li>
+                                <li>Incluir Títulos a pagar, que não seja peroveniente de compra de mercadoria de revenda</li>
+                                <li>Alterar, desdobrar e prorrogar os títulos a pagar</li>
+                                <li>Pagar as contas da empresa através de cheques ou borderô.</li>
+                                <ul>
+                                    <li>Cheque: deverá usar apenas cheques da própria empresa, previamente cadastrados</li>
+                                    <li>Borderô: poderá ser utilizado para qualquer tipo de pagamento</li>
+                                </ul>
+                            </lo>
+                        </div>
+                    </div>
+                <br>
             </div>
         </dl>
     </div>

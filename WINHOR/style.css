@@ -1,30 +1,60 @@
 
 
 #Fundo{
-    background-color: rgb(204, 214, 250);
+    background-color: rgba(233, 241, 244, 0.782);
 }
 
 #Cabecalho{
-    background:#3d17e4 ;
-    color: rgb(246, 246, 250);
+    background:#32a176 ;
+    color: rgb(246, 250, 249);
     text-align: center;
-}
-
- 
-.button {
-    
-    background-color: rgb(62, 88, 182); 
-    border: none;
-    color: white;
-    padding: 10px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
     border-radius: 12px;
-    float: none;
-  }
-
-.mark{
-    color: #4890b9;
+    border: 2px solid #000000;
+    font-size:large;
+    line-height: 150%;
 }
+
+#txt1 {
+    text-shadow: 
+    -1px -1px 0px #161616, 
+    -1px 1px 0px #161616,      
+     1px -1px 0px #161616,    
+     1px 0px 0px #161616;
+}
+
+#header{
+    background:#36947e ;
+    color: rgb(206, 222, 210);
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #090909;
+    text-shadow: 
+    -1px -1px 0px #161616, 
+    -1px 1px 0px #161616,      
+     1px -1px 0px #161616,    
+     1px 0px 0px #161616;
+    font-size: large;
+    line-height: 15%
+}
+
+.button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #8ae08d; /* Green */
+    color: white;
+    word-spacing: 10%;
+
+  }
+  
+
+  #btn1 {
+    transition-duration: 0.4s;
+  }
+  
+  #btn1:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
