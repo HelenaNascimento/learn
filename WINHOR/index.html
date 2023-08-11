@@ -3,18 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
     <title>HOME</title>
 </head>
-<body>
-    <header> 
+<body id="Fundo">
+    <header id="h1"> 
 
     </header>
-    <div> 
-        <table>
+
+    <div id="Cabecalho"> 
+        <h1>Treinamento Winthor</h1>
+
+            <a href="#" class="button">MANUT SISTEMA</a>
+            <a href="#" class="button">CAD BASÍCOS</a>
+            <a href="#" class="button">CLIENTES</a>
+            <a href="#" class="button">VENDAS/FAT</a>
+            <a href="#" class="button">PRODUTOS</a>
+            <a href="#" class="button">COMPRAS</a>
+            <a href="#" class="button">ESTOQUE</a>
+            <a href="#" class="button">FISCAL</a>
+            <a href="#" class="button">FINANCEIRO</a>
+            <br>
+
+    <!--    <table>
             <h1>Treinamento Winthor</h1>
                 <tr>
-                    <td><button>MANUT SISTEMA</button></td>
-                    <td><button>CAD BASÍCOS</button></td>
+                    <td id="t1"><button>MANUT SISTEMA</button></td>
+                    <td id="t2"><button>CAD BASÍCOS</button></td>
                 </tr>    
                 <tr>
                     <td><button>CLIENTES</button></td>
@@ -32,12 +47,12 @@
                     <td><button>FINANCEIRO</button></td>
                 </tr>
 
-        </table>
+        </table> -->
     </div>
     <div>
         <dl>
             <div>
-                <dt><b>CADASTRO BÁSICO</b></dt>
+                <dt id="Cabecalho"><b>CADASTRO BÁSICO</b></dt>
                         <dd><p><b>1 - Cadastros Básicos</b></p></dd>
                         <dd><p>1.1 - Cadastro de funcioanmento e responsável técnico (farmacêutico) - <mark>Rotina 302</mark></p></dd>
                         <dd><p>1.2 - Cadastro de alvarás para produto controlados - <mark>Rotina 203</mark></p>
@@ -91,7 +106,12 @@
                         <br>
             </div>
             <div>
-                <dt><p><b>CLIENTES</b></p></dt>
+                <a class="btn-fixed" href="top">
+                    <span class="material-icons">
+                        nort
+                    </span>
+                </a>
+                <dt id="Cabecalho"><p><b>CLIENTES</b></p></dt>
                     <dd><p><b>Cadastrar Clientes - </b><mark>Rotina 302</mark>:</p></dd>
                     <br>
                     <dd>
@@ -100,7 +120,7 @@
                     <br>
             </div>
             <div>        
-                <dt><p><b>VENDAS</b></p></dt>
+                <dt id="Cabecalho"><p><b>VENDAS</b></p></dt>
                     <dd>
                         <dd><p><b>1 - Rotina de Vendas</b> - <mark>Rotina 4116</mark>:</p></dd>
                     </dd>
@@ -172,11 +192,12 @@
                     </dd>
             </div>
             <div>
-                <dt><b>FATURAMENTO</b></dt>
+                <dt id="Cabecalho"><b>FATURAMENTO</b></dt>
                     <dd></dd>
+                    <br>
             </div>
             <div>
-                <dt><b>PRODUTOS</b></dt>
+                <dt id="Cabecalho"><b>PRODUTOS</b></dt>
                 <dd>
                     <p><b>Cadastrar Produto</b> -  <mark>Rotina 203</mark></p>
                 </dd>
@@ -235,7 +256,7 @@
                 <dd><p><b>Quando utilizar?</b> Sempre que for necessário fornecedor um desconto ao clientre para uma venda específica. É um desconto com supervisão de senha. Casoo vendedor não precise de autorização através de senha, basta acessar a rotina 530 ena permissão 40 da rotina 316 deixar a opção desmarcada.</p></dd>
             </div>
             <div>
-                <dt><b>COMPRAS</b></dt>
+                <dt id="Cabecalho"><b>COMPRAS</b></dt>
                 <dd><p><b>Apresentação</b></p></dd>
                 <dd>
                     <iframe width="567" height="480" src="https://www.youtube.com/embed/e3Pryx0gFJo?list=PL22BuVvWohArQSo5eDPO4LXt6fUsM95Om" title="TOTVS Distribuição e Varejo (Linha WinThor) | Fluxo de Compras | Abertura" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -243,7 +264,7 @@
                 <br>
             </div>
             <div>
-                <dt><b>ESTOQUE</b></dt>
+                <dt id="Cabecalho"><b>ESTOQUE</b></dt>
                     <dd><p><b>Bloqueio / Desbloqueio de Produto</b> - <mark>Rotina 266</mark></p></dd>
                     <dd><p><b>O que é?</b> Rotina onde o estoque pode ser bloqueado ou desbloqueado parcial ou totalmente</p></dd>
                     <dd><p><b>Quando utilizar?</b> Após a conferência da nota fiscal de enrada será necessário bloquear ou desbloquear um produto, a rotina poderá ser utilizada</p></dd>
@@ -335,18 +356,19 @@
                     <p>Usar a <mark>rotina 1183</mark> para realizar desdobramento de lotes.</p></dd>
             </div>
             <div>
-                <dt><b>COMERCIAL</b></dt>
+                <dt id="Cabecalho"><b>COMERCIAL</b></dt>
                 <dd></dd>
             </div>
             <div>
-                <dt><b>FISCAL</b></dt>
+                <dt id="Cabecalho"><b>FISCAL</b></dt>
                 <dd></dd>
             </div>
             <div>
-                <dt><b>FINANCEIRO</b></dt>
+                <dt id="Cabecalho"><b>FINANCEIRO</b></dt>
                 <dd></dd>
             </div>
         </dl>
     </div>
 </body>
+<script src="function.js"></script>
 </html>

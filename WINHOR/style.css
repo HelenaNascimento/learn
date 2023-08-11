@@ -1,0 +1,30 @@
+
+
+#Fundo{
+    background-color: rgb(204, 214, 250);
+}
+
+#Cabecalho{
+    background:#3d17e4 ;
+    color: rgb(246, 246, 250);
+    text-align: center;
+}
+
+ 
+.button {
+    
+    background-color: rgb(62, 88, 182); 
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 12px;
+    float: none;
+  }
+
+.mark{
+    color: #4890b9;
+}
